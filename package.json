@@ -1,0 +1,27 @@
+{
+  "name": "nest-bun-starter",
+  "type": "module",
+  "scripts": {
+    "start": "bun src/main.ts",
+    "dev": "bun --hot src/main.ts",
+    "test": "bun test",
+    "test:watch": "bun test --watch",
+    "check": "biome check --apply ."
+  },
+  "dependencies": {
+    "@nestjs/common": "^10.2.10",
+    "@nestjs/core": "^10.2.10",
+    "@nestjs/platform-express": "^10.2.10",
+    "reflect-metadata": "^0.1.14",
+    "rxjs": "^7.8.1"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.4.1",
+    "@nestjs/cli": "^10.2.1",
+    "@nestjs/testing": "^10.2.10",
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
